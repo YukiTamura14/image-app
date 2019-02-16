@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: img_uploader_production
+  database: imguploader_production
   username: yuki
   password: <%= ENV['IMAGE_UPLOADER_TEST_APP_DATABASE_PASSWORD'] %>

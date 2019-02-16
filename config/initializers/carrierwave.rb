@@ -18,10 +18,10 @@ CarrierWave.configure do |config|
 
   case Rails.env
     when 'production'
-      config.fog_directory = 'img-uploader-production'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/本番環境用のバケット名'
+      config.fog_directory = 'imguploader-production'
+      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/imguploader-production'
     when 'development'
-      config.fog_directory = 'img-uploader-development'
-      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/開発環境用のバケット名'
+      config.fog_directory = 'imguploader-development'
+      config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/imguploader-development'
   end
 end
