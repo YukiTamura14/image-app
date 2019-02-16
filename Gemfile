@@ -36,6 +36,8 @@ gem 'fog-aws'
 gem 'dotenv-rails'
 gem 'unicorn'
 gem 'therubyracer', platforms: :ruby
+gem 'carrierwave'
+gem 'mini_magick'
 
 
 group :development, :test do
