@@ -5,7 +5,7 @@ lock '3.6.0'
 set :application, 'imguploader'
 
 # cloneするgitのレポジトリ（xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'git@github.com:YukiTamura14/img_uploader.git'
+set :repo_url, 'git@github.com:YukiTamura14/img_uploader'
 
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
