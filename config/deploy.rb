@@ -2,7 +2,7 @@
 lock '3.6.0'
 
 # デプロイするアプリケーション名
-set :application, 'img_uploader'
+set :application, 'imguploader'
 
 # cloneするgitのレポジトリ（xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
 set :repo_url, 'git@github.com:YukiTamura14/img_uploader.git'
@@ -11,7 +11,7 @@ set :repo_url, 'git@github.com:YukiTamura14/img_uploader.git'
 set :branch, ENV['BRANCH'] || 'master'
 
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/img_uploader'
+set :deploy_to, '/var/www/imguploader'
 
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
